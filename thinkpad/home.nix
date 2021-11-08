@@ -4,23 +4,12 @@
   imports = [
     ./config/sway.nix
     ./config/emacs.nix
+    ./config/starship.nix
   ];
 
   programs.home-manager.enable = true;
   home.username = "toby";
   home.homeDirectory = "/home/toby";
-
-  programs.starship = {
-    enable = true;
-    enableBashIntegration = true;
-    settings = {
-      add_newline = true;
-      format = "$directory [|](bold purple) ";
-      directory = {
-        style = "bold purple";
-      };
-    };
-  };
 
   programs.bash = {
     enable = true;
