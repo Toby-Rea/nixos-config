@@ -53,7 +53,6 @@
     wl-clipboard
     mako
     grim
-    foot
     waybar
     dmenu
     brightnessctl
