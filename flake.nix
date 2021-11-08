@@ -20,12 +20,12 @@
 
       config = { 
         allowUnfree = true;
-	allowBroken = true;
+				allowBroken = true;
       };
       
       overlays = with inputs; [
         emacs.overlay
-	nixpkgs-wayland.overlay
+				nixpkgs-wayland.overlay
       ];
     };
   in {
@@ -47,12 +47,12 @@
       thinkpad = nixpkgs.lib.nixosSystem {
         inherit system pkgs;
         modules = [ 
-	  ./thinkpad
-	  home-manager.nixosModules.home-manager {
+	  			./thinkpad
+	  			home-manager.nixosModules.home-manager {
             home-manager.useGlobalPkgs = true;
-	    home-manager.useUserPackages = true;
-	    home-manager.users.toby = import ./thinkpad/home.nix;
-	  }
+	    			home-manager.useUserPackages = true;
+	    			home-manager.users.toby = import ./thinkpad/home.nix;
+	  			}
         ];
       };
     };
