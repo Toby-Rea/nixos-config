@@ -18,7 +18,7 @@
       
       colors = {
         foreground = "161616";
-        background = "f4f4f4";
+        background = "ffffff";
         regular0 = "525252";
         regular1 = "cc9393";  # red
         regular2 = "7f9f7f";  # green

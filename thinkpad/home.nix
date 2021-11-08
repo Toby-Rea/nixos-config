@@ -3,6 +3,7 @@
 {
   imports = [
     ./config/sway.nix
+    ./config/waybar.nix
     ./config/foot.nix
     ./config/emacs.nix
     ./config/starship.nix
