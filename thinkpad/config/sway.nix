@@ -4,18 +4,18 @@
   wayland.windowManager.sway = {
     enable = true;
     wrapperFeatures.gtk = true;
-
+    
     config = {
       modifier = "Mod4";
       terminal = "${pkgs.foot}/bin/foot";
       menu = "${pkgs.dmenu}/bin/dmenu_run";
-
+      
       input = {
         "type:keyboard" = {
           xkb_layout = "gb";
-	        xkb_model = "pc105";
-	        repeat_delay = "250";
-	        repeat_rate = "40";
+          xkb_model = "pc105";
+          repeat_delay = "250";
+          repeat_rate = "40";
         };
       };
 
