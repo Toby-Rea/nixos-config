@@ -10,8 +10,6 @@
     ./fonts.nix
   ];
 
-  nixpkgs.config.allowBroken = true;
-
   nix = {
     # Flake Support
     package = pkgs.nixFlakes;
