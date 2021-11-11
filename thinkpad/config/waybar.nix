@@ -107,6 +107,7 @@
         color: rgba(218, 30, 40, 1.0);
       }
       
+      #battery.full,
       #battery.plugged,
       #battery.charging {
         color: rgba(38, 166, 91, 1.0);
