@@ -5,11 +5,11 @@
     enable = true;
     settings = {
       main = {
-        font = "monospace:size=7";
-        font-bold = "monospace:weight=bold:size=7";
-        font-italic = "monospace:slant=italic:size=7";
-        font-bold-italic = "monospace:weight=bold:slant=italic:size=7";
-        pad = "24x24 center";
+        font = "monospace:size=8";
+        font-bold = "monospace:weight=bold:size=8";
+        font-italic = "monospace:slant=italic:size=8";
+        font-bold-italic = "monospace:weight=bold:slant=italic:size=8";
+        pad = "32x32 center";
       };
       
       cursor = {
