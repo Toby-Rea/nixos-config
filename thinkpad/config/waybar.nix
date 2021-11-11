@@ -66,7 +66,7 @@
       * {
         border: none;
         font-family: monospace, sans-serif;
-        font-size: 15px;
+        font-size: 16px;
       }
 
       window#waybar {
