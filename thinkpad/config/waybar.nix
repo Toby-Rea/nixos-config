@@ -83,7 +83,7 @@
       #tray {
         color: rgba(82, 82, 82, 1.0);
         padding: 0 6px;
-        margin: 2px 3px 2px 3px;
+        margin: 2px 5px 2px 5px;
         background-clip: padding-box;
       }
 
