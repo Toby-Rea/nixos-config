@@ -16,9 +16,9 @@
 
     fontconfig = {
       defaultFonts = {
-        sansSerif = [ "Inter" ];
-        # monospace = [ "VictorMono Nerd Font" ];
         monospace = [ "Sarasa Mono K" ];
+        sansSerif = [ "Sarasa UI K" ];
+        serif = [ "Sarasa UI K"];
       };
     };
   };
