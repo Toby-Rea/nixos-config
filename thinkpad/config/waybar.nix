@@ -1,6 +1,5 @@
-{ lib, pkgs, ... }:
-
-{
+{ pkgs, ... }: {
+  
   programs.waybar = {
     enable = true;
     settings = [
@@ -62,6 +61,7 @@
         };
       }
     ];
+
     style = ''
       * {
         border: none;
@@ -129,4 +129,5 @@
       }
     '';
   };
+  
 }
