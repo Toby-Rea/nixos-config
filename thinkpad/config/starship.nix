@@ -1,6 +1,5 @@
-{ lib, pkgs, ... }:
-
-{
+{ pkgs, ... }: {
+  
   programs.starship = {
     enable = true;
     enableBashIntegration = true;
@@ -12,4 +11,5 @@
       };
     };
   };
+  
 }
