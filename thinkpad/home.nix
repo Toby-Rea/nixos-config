@@ -7,6 +7,7 @@
     ./config/foot.nix
     ./config/emacs.nix
     ./config/starship.nix
+    ./config/mako.nix
   ];
 
   programs.home-manager.enable = true;
