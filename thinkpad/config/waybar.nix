@@ -22,7 +22,7 @@
             tooltip-format = "<big>{:%d %B %Y}</big>\n<tt><small>{calendar}</small></tt>";
           };
           "backlight" = {
-            format = "  {percent}%";
+            format = " {percent}%";
           };
           "battery" = {
             states = {
@@ -30,21 +30,21 @@
               critical = 15;
             };
             format = "{icon} {capacity}%";
-            format-icons = [ " " " " " " " " " " ];
+            format-icons = [ "" "" "" "" "" ];
           };
           "network" = {
-            format-wifi = "  {essid}";
+            format-wifi = " {essid}";
             format-ethernet = "{ipaddr}/{cidr} ";
             tooltip-format-wifi = "Connected: {essid} ({signalStrength}%)";
             format-linked = "{ifname} (No IP) ";
-            format-disconnected = "  disconnected";
+            format-disconnected = " disconnected";
             on-click = "${pkgs.foot}/bin/foot nmtui";
           };
           "pulseaudio" = {
-            format = "{icon} {volume:3}% | {format_source}";
+            format = "{icon} {volume}% | {format_source}";
             format-bluetooth = "{volume}% {icon} {format_source}";
             format-bluetooth-muted = " {icon} {format_source}";
-            format-muted = " {format_source}";
+            format-muted = " | {format_source}";
             format-source = " {volume}%";
             format-source-muted = "";
             format-icons = {
