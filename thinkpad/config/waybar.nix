@@ -26,8 +26,8 @@
           };
           "battery" = {
             states = {
-              warning = 25;
-              critical = 15;
+              warning = 30;
+              critical = 20;
             };
             format = "{icon} {capacity}%";
             format-icons = [ "" "" "" "" "" ];
@@ -102,15 +102,19 @@
           color: #000000;
         }
       }
-      
-      #battery.critical:not(.charging) {
-        color: rgba(218, 30, 40, 1.0);
-      }
-      
+                  
       #battery.full,
       #battery.plugged,
       #battery.charging {
         color: rgba(38, 166, 91, 1.0);
+      }
+
+      #battery.warning:not(.charging) {
+        color: rgba(248, 148, 6, 1.0);
+      }
+
+      #battery.critical:not(.charging) {
+        color: rgba(218, 30, 40, 1.0);
       }
       
       tooltip {
