@@ -1,6 +1,5 @@
-{ lib, pkgs, ... }:
-
-{
+{ lib, pkgs, ... }: {
+  
   programs.foot = {
     enable = true;
     settings = {
@@ -40,4 +39,5 @@
       };
     };
   };
+  
 }

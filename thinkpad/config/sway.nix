@@ -1,6 +1,5 @@
-{ lib, pkgs, ... }:
-
-{
+{ lib, pkgs, ... }: {
+  
   wayland.windowManager.sway = {
     enable = true;
     wrapperFeatures.gtk = true;
@@ -55,4 +54,5 @@
     dmenu
     brightnessctl
   ];
+  
 }
