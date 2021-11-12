@@ -51,7 +51,6 @@
     swaylock
     swayidle
     wl-clipboard
-    mako
     grim
     dmenu
     brightnessctl
