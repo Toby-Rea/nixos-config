@@ -8,6 +8,7 @@
     ./config/emacs.nix
     ./config/starship.nix
     ./config/mako.nix
+    ./config/firefox.nix
   ];
 
   programs.home-manager.enable = true;
@@ -26,8 +27,6 @@
     userName = "Toby Rea";
     userEmail = "toby.e.rea@protonmail.com";
   };
-
-  programs.firefox.enable = true;
 
   programs.zathura.enable = true;
   programs.mpv.enable = true;
