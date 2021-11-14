@@ -7,7 +7,7 @@
     config = {
       modifier = "Mod4";
       terminal = "${pkgs.foot}/bin/foot";
-      menu = "${pkgs.dmenu}/bin/dmenu_run";
+      menu = "${pkgs.rofi}/bin/rofi -show drun";
       
       input = {
         "type:keyboard" = {

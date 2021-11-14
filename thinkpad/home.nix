@@ -9,6 +9,7 @@
     ./config/starship.nix
     ./config/mako.nix
     ./config/firefox.nix
+    ./config/rofi
   ];
 
   programs.home-manager.enable = true;

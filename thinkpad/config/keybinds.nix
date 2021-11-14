@@ -8,7 +8,7 @@ in {
  "${modifier}+Shift+q" = "kill";
  "${modifier}+Shift+c" = "reload";
  "${modifier}+Shift+e" = "exit";
- "${modifier}+d" = "exec ${dmenu}/bin/dmenu_run";
+ "${modifier}+d" = "exec ${rofi}/bin/rofi -show drun";
  "${modifier}+1" = "workspace number 1";
  "${modifier}+2" = "workspace number 2";
  "${modifier}+3" = "workspace number 3";
